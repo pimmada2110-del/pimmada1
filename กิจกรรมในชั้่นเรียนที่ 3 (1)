@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>แปลงอุณหภูมิ</title>
+</head>
+<body>
+
+<?php
+$c = 0;
+
+while ($c <= 100) {
+    $f = ($c * 1.8) + 32;
+    echo $c . " °C = " . $f . " °F <br>";
+    $c = $c + 10;
+}
+?>
+
+</body>
+</html>
